@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f9f9"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/avatar_image_view"
+            style="@style/AvatarImageView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+        <View style="@style/ViewLine" />
+
+        <LinearLayout style="@style/LinearLayoutStaticHeight">
+
+            <TextView
+                style="@style/TextViewNormal"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/name_edit_text"
+                style="@style/EditTextNormal"
+                android:hint="@string/name_hint" />
+        </LinearLayout>
+
+        <View style="@style/ViewLine" />
+
+        <LinearLayout style="@style/LinearLayoutStaticHeight">
+
+            <TextView
+                style="@style/TextViewNormal"
+                android:text="@string/birthday" />
+
+            <EditText
+                android:id="@+id/birthday_edit_text"
+                style="@style/EditTextNormal"
+                android:hint="@string/birthday_hint" />
+        </LinearLayout>
+
+        <View style="@style/ViewLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:gravity="center_vertical"
+            android:text="@string/optional"
+            android:textColor="#bdbdbd" />
+
+        <View style="@style/ViewLine" />
+
+        <LinearLayout style="@style/LinearLayoutStaticHeight">
+
+            <TextView
+                style="@style/TextViewNormal"
+                android:text="@string/phone" />
+
+            <EditText
+                android:id="@+id/phone_edit_text"
+                style="@style/EditTextNormal"
+                android:hint="@string/phone_hint"
+                android:inputType="phone"
+                android:maxLength="15" />
+        </LinearLayout>
+
+        <View style="@style/ViewLine" />
+
+        <LinearLayout style="@style/LinearLayoutStaticHeight">
+
+            <TextView
+                style="@style/TextViewNormal"
+                android:text="@string/remark" />
+
+            <EditText
+                android:id="@+id/remark_edit_text"
+                style="@style/EditTextNormal"
+                android:hint="@string/remark_hint" />
+        </LinearLayout>
+
+        <View style="@style/ViewLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <Button
+                android:id="@+id/delete_button"
+                style="?android:attr/button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/delete_reminder" />
+
+            <Button
+                android:id="@+id/save_button"
+                style="?android:attr/button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/save" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

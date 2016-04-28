@@ -1,0 +1,30 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Birthday Notes</string>
+    <string name="image_content_description" />
+    <string name="add">Add</string>
+    <string name="empty_birthday">No birthday \n Click the Add button in the upper right corner</string>
+    <string name="edit">Edit</string>
+    <string name="phone">Phone</string>
+    <string name="phone_hint"> Please enter the phone number</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Please type in your name</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_hint">Click Settings birthday</string>
+    <string name="remark"> Remark</string>
+    <string name="remark_hint">Please fill in Notes</string>
+    <string name="optional">Optional</string>
+    <string name="delete_reminder">Delete this birthday notes</string>
+    <string name="save">save</string>
+    <string name="add_birthday">Add a birthday</string>
+    <string name="edit_birthday">Modify birthday</string>
+    <string name="birthday_is_today">Today Birthdays</string>
+    <string name="left_days"><xliff:g exmaple="100" id="days">%d</xliff:g>days</string>
+    <string name="will_birthday">After birthday</string>
+    <string name="days_will_birthday">Days after birthday</string>
+    <string name="birthday_date">Date of birth</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_avatar">Choose Avatar</string>
+    <string name="call_phone">Dial number<xliff:g exmaple="10086" id="phone">%s</xliff:g>?</string>
+
+</resources>

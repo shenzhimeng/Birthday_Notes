@@ -1,0 +1,30 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">生日备忘录</string>
+    <string name="image_content_description" />
+    <string name="add">添加</string>
+    <string name="empty_birthday">还没添加生日哦\n点击右上角按钮添加</string>
+    <string name="edit">编辑</string>
+    <string name="phone">手机</string>
+    <string name="phone_hint">请输入手机号码</string>
+    <string name="name">姓名</string>
+    <string name="name_hint">请输入姓名</string>
+    <string name="birthday">生日</string>
+    <string name="birthday_hint">点击设置生日</string>
+    <string name="remark">备注</string>
+    <string name="remark_hint">请填写备注</string>
+    <string name="optional">选填</string>
+    <string name="delete_reminder">删除此生日备忘</string>
+    <string name="save">保存</string>
+    <string name="add_birthday">添加生日</string>
+    <string name="edit_birthday">修改生日</string>
+    <string name="birthday_is_today">今天生日</string>
+    <string name="left_days"><xliff:g exmaple="100" id="days">%d</xliff:g>天</string>
+    <string name="will_birthday">后生日</string>
+    <string name="days_will_birthday">天后生日</string>
+    <string name="birthday_date">出生日期</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="choose_avatar">选择头像</string>
+    <string name="call_phone">拨打电话<xliff:g exmaple="10086" id="phone">%s</xliff:g>?</string>
+
+</resources>
