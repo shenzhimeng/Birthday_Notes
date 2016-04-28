@@ -24,6 +24,7 @@ public class AvatarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.avtivity_avatar);
+        setTitle(R.string.choose_avatar);
 
         // 获取程序中包含的推荐头像
         final int[] icons = {R.drawable.touxiang001
