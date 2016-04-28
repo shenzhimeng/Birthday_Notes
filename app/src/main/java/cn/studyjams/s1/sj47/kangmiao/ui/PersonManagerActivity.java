@@ -102,6 +102,8 @@ public class PersonManagerActivity extends AppCompatActivity implements View.OnC
         mYear = person.getYear();
         mMonth = person.getMonth();
         mDay = person.getDay();
+
+        avatar = person.getAvatar();
     }
 
     @Override
