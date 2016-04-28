@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 emptyTextView.setVisibility(mPersons.size() == 0 ? View.VISIBLE : View.GONE);
             } else if (position == -1) { // 表示添加了一条备忘信息
                 mPersons.add(person);
+                emptyTextView.setVisibility(View.GONE);
             } else {// 表示修改了信息
                 Person oldPerson = mPersons.get(position);
                 oldPerson.setName(person.getName());

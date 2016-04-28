@@ -13,7 +13,7 @@
     <string name="remark"> Remark</string>
     <string name="remark_hint">Please fill in Notes</string>
     <string name="optional">Optional</string>
-    <string name="delete_reminder">Delete this birthday notes</string>
+    <string name="delete_reminder">Delete</string>
     <string name="save">save</string>
     <string name="add_birthday">Add a birthday</string>
     <string name="edit_birthday">Modify birthday</string>
