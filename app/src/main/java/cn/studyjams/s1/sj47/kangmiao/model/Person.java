@@ -1,5 +1,7 @@
 package cn.studyjams.s1.sj47.kangmiao.model;
 
+import android.support.annotation.NonNull;
+
 import java.io.Serializable;
 
 /**
@@ -7,7 +9,7 @@ import java.io.Serializable;
  * 包括个人的生日信息、姓名、头像等
  * Created by Godream on 16/4/27 下午3:16.
  */
-public class Person implements Serializable {
+public class Person implements Serializable, Comparable<Person> {
     public static final String PERSON_ID = "person_id";
     public static final String NAME = "name";
     public static final String AVATAR = "avatar";
@@ -124,5 +126,10 @@ public class Person implements Serializable {
 
     public void setLeftDays(int leftDays) {
         this.leftDays = leftDays;
+    }
+
+    @Override
+    public int compareTo(@NonNull Person another) {
+        return ((Integer) leftDays).compareTo(another.leftDays);
     }
 }

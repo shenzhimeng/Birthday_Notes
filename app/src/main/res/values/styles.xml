@@ -30,7 +30,7 @@
         <item name="android:layout_width">@dimen/avatar_width</item>
         <item name="android:contentDescription">@string/image_content_description</item>
         <item name="android:scaleType">centerCrop</item>
-        <item name="android:src">@drawable/touxiang004</item>
+        <item name="android:src">@drawable/touxiang006</item>
 
     </style>
 

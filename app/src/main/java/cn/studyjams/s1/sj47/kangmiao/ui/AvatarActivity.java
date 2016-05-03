@@ -36,16 +36,6 @@ public class AvatarActivity extends AppCompatActivity {
                 , R.drawable.touxiang007
                 , R.drawable.touxiang008
                 , R.drawable.touxiang009
-                , R.drawable.touxiang010
-                , R.drawable.touxiang011
-                , R.drawable.touxiang012
-                , R.drawable.touxiang013
-                , R.drawable.touxiang014
-                , R.drawable.touxiang015
-                , R.drawable.touxiang016
-                , R.drawable.touxiang017
-                , R.drawable.touxiang018
-                , R.drawable.touxiang019
         };
 
         GridView gridView = (GridView) findViewById(R.id.grid_view);

@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.Collections;
 import java.util.List;
 
 import cn.studyjams.s1.sj47.kangmiao.R;
@@ -96,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (position == -1) { // 表示添加了一条备忘信息
                 mPersons.add(person);
                 emptyTextView.setVisibility(View.GONE);
+                Collections.sort(mPersons);
             } else {// 表示修改了信息
                 Person oldPerson = mPersons.get(position);
                 oldPerson.setName(person.getName());
@@ -108,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
                 oldPerson.setPhone(person.getPhone());
                 oldPerson.setLeftDays(person.getLeftDays());
                 oldPerson.setRemark(person.getRemark());
+                Collections.sort(mPersons);
             }
 
             // 刷新数据

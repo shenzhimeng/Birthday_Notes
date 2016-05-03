@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import cn.studyjams.s1.sj47.kangmiao.model.Person;
@@ -104,6 +105,7 @@ public class PersonDao {
 
             persons.add(person);
         }
+        Collections.sort(persons);
         cursor.close();
         db.close();
         return persons;

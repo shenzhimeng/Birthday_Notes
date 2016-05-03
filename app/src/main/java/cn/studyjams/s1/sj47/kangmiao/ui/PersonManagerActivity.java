@@ -40,7 +40,7 @@ public class PersonManagerActivity extends AppCompatActivity implements View.OnC
     private int mDay;
 
     // 默认头像
-    private int avatar = R.drawable.touxiang004;
+    private int avatar = R.drawable.touxiang006;
 
     private Person person;
     private int position;
